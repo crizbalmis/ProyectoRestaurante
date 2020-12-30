@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-image: url(img\fondo.jpg);
+    background-image: url(\img\fondos\fondo.jpg);
     font-family: 'Rock Salt', cursive;
     font-weight: bold;
 }
@@ -91,7 +91,7 @@ section{
         rgba(255, 226, 231, 0.87),
         rgba(0, 168, 177, 0.541)
     ),
-    url(img\galeria\menu.jpg); 
+    url(\img\galeria\camara.jpg); 
 }
 .ubicacion:hover{
     transform: scale(1.02);
@@ -99,7 +99,7 @@ section{
         rgba(255, 226, 231, 0.87),
         rgba(0, 168, 177, 0.541)
     ),
-    url(img\galeria\ubicacion.png); 
+    url(\img\galeria\ubicacion.png); 
 }
 .galeria:hover{
     transform: scale(1.02);
@@ -107,7 +107,7 @@ section{
         rgba(255, 226, 231, 0.87),
         rgba(0, 168, 177, 0.541)
     ),
-    url(img\camara.jpg); 
+    url(\img\camara.jpg); 
 }
 .reservas:hover{
     transform: scale(1.02);
@@ -115,7 +115,7 @@ section{
         rgba(255, 226, 231, 0.87),
         rgba(0, 168, 177, 0.541)
     ),
-    url(img\galeria\reservas.png); 
+    url(\img\galeria\reservas.png); 
 
 }
 .menu{
@@ -125,7 +125,7 @@ section{
     border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
     width: 45vw;
     height: 38vh;
-    background-image:url(img\galeria\menu.jpg) ;
+    background-image:url(\img\galeria\menu.jpg) ;
     background-size: cover; 
     border: solid #000300ff;
 }
@@ -145,7 +145,7 @@ section{
     margin: 1.5vw;;
     width: 35vw;
     height: 50vh;
-    background-image: url(img\galeria\camara.jpg);
+    background-image: url(\img\galeria\camara.jpg);
     background-size: cover;
     border-width: 7px 5px 8px 7px;
     border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
