@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Index</title>
+        <title>Ubicacion</title>
         <meta charset="UTF-8" />
-		<link href="\css\cssIndex\index.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="\css\cssUbicacion\ubicacion.css" media="screen" rel="stylesheet" type="text/css" />
 		<meta name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body>
@@ -13,7 +13,7 @@
                     <li>
                         <a href="">MENÚ</a>
                     </li>
-                    <li>
+                    <li class="ubicacion">
                         <a href="">UBICACIÓN</a>
                     </li>
                     <li>
@@ -25,26 +25,19 @@
                 </ul>
             </nav>
             <div>
-                <img src="\img\marca\logogatosinfondo.png" alt="Logo Gato">
-                <img src="\img\marca\letras.jpg" alt="Yawarakai Ramen" class="letras">
+                <a href="" class="aIndex">
+                    <img src="\img\marca\logogatosinfondo.png" alt="Logo Gato">
+                    <img src="\img\marca\letrasFondoAzul.jpg" alt="Yawarakai Ramen" class="letras">
+                </a>
             </div>
         </header>
             <section>
-                <article>
-                    <a href="" class="menu">
-                        <span>MENÚ</span>
-                    </a>
-                    <a href="" class="ubicacion">
-                        <span>UBICACIÓN</span>
-                    </a>
+                <article class="imagenes">
+                    <div class="fotoBar"></div>
+                    <div class="fotoBar2"></div>
                 </article>
-                <article>
-                    <a href="" class="galeria">
-                        <span>GALERÍA</span>
-                    </a>
-                    <a href="" class="reservas">
-                        <span>RESERVAS</span>
-                    </a>
+                <article class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.0349596381966!2d-0.4893860484817138!3d38.34817288663371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237ad469bdbed%3A0xd153623ee33809c7!2sCalle%20Jos%C3%A9%20Guti%C3%A9rrez%20Pet%C3%A9n%2C%2013%2C%2003004%20Alicante%20(Alacant)%2C%20Alicante!5e0!3m2!1ses!2ses!4v1609350778413!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </article>
             </section>
         <footer>
@@ -65,8 +58,8 @@
                     <img src="\img\logos\facebook.svg" alt="">
                 </a>
             </div>
-            <nav class="navfooter">
-                <ul>
+            <nav >
+                <ul class="navfooter">
                     <li>
                         <a href="">MENÚ</a>
                     </li>
