@@ -3,6 +3,7 @@ body{
     background-image: url(fondo.jpg);
     font-family: 'Rock Salt', cursive;
     font-weight: bold;
+    overflow-x: hidden;
 }
 img {
     height: 20vh;
@@ -63,6 +64,13 @@ article{
     justify-content: center;
     margin: 3vh 3vh;
 }
+article div{
+    margin: 2vh;
+    border: solid;
+    background-color: rgb(247, 244, 241);
+    border-width: 8px 10px 8px 7px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+}
 a{
     text-decoration: none;
     display: flex;
@@ -119,10 +127,11 @@ section{
 }
 .menu{
     transition-duration: 0.4s;
-    margin: 1.5vw;
+    margin: 1vw;
     border-width: 5px 1px 8px 7px;
     border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
     width: 45vw;
+    max-width: 700px;
     height: 38vh;
     background-image:url(menu.jpg) ;
     background-size: cover; 
@@ -132,8 +141,9 @@ section{
     transition-duration: 0.4s;
     margin: 1.5vw;
     border-width: 5px 8px 7px 7px;
-    border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+    border-radius:92% 5% 94% 8%/6% 96% 8% 94%;
     width: 40vw;
+    max-width: 700px;
     height: 45vh;
     background-image: url(ubicacion.png);
     background-size: cover;
@@ -143,6 +153,7 @@ section{
     transition-duration: 0.4s;
     margin: 1.5vw;;
     width: 35vw;
+    max-width: 600px;
     height: 50vh;
     background-image: url(camara.jpg);
     background-size: cover;
@@ -154,6 +165,7 @@ section{
     transition-duration: 0.4s;
     margin: 1.5vw;
     width: 40vw;
+    max-width: 600px;
     height: 40vh;
     background-image: url(reservas.png);
     border-width: 5px 6px 8px 7px;

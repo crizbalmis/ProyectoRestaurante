@@ -4,6 +4,7 @@ body{
     background-image: url(fondo.jpg);
     font-family: 'Rock Salt', cursive;
     font-weight: bold;
+    overflow-x: hidden;
 }
 img {
     height: 14vh;
@@ -81,15 +82,11 @@ header div{
 section{
     display: flex;
     width: 100vw;
-    margin: 0px;
-    padding: 0px;
 }
 iframe{
     align-self: end;
     width: 54vw;
-    height: 68vh;
-    margin: 0px;
-    padding: 0px;
+    height: 70vh;
 }
 .imagenes{
     background-image: url(fondoSolAzul.jpg);
