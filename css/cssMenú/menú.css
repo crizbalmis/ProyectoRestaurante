@@ -79,28 +79,78 @@ header div{
     align-self: center;
 
 }
-section div{
+section{
     display: flex;
     justify-content: center;
-    margin: 1vw;
-    border: solid #000300ff;
-    border-width: 2px 3px 1.5px 3.4px;
-    border-radius:95% 5% 94% 3%/4% 95% 6% 95%;  
-    background-color:  #fffafde8;
-
+    flex-wrap: wrap;
 }
 article{
-    display: table;
+    max-width: 450px;
+    margin: 3vw;
+    padding: 3vh;
+    border: solid #000300ff;
+    border-width: 5px;
+    border-radius: 99% 2% 98% 3%/3% 97% 2% 98%;
+    background-color:  #fcfbf9cc;
 }
 h1{
-    margin: 2vw;
+    text-align: center;
+    font-size: 2.4vh;
+    border: 5px solid #000300ff;
+    padding: 0vh 1.5vh 0vh 0vh;
+    margin: 2vh 0vh;
+    background-color: rgba(240, 51, 41, 0.733);
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.95);
+    -moz-box-shadow:    5px 5px 3px 0px rgba(0, 0, 0, 0.95);
+    box-shadow:         5px 5px 3px 0px rgba(0, 0, 0, 0.95);
+}
+.table{
+    width: auto;
+    display: table;
+}
+.columna1{
+    color: #f03229ff;
+    font-size: 2.2vh;
+    width: 80vw;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 1vh 0.2vh 0vh 0vh;
+    display: table-cell;
+    z-index: 10; 
+    position: relative;
+}
+.columna{
+    width: 20vw;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 0.3vw;
+    display: table-cell;
+    position: relative;
+}
+article img{
+    display: none;
+    width: 20vw;
+    height: auto;
+    border: solid #000300ff;
+    border-width: 5px;
+    border-radius: 99% 2% 98% 3%/3% 97% 2% 98%;
 }
 h3{
-    color: #f03229ff;
-    font-weight: 900;
+    position: relative;
+    margin: 0vh;
 
 }
-/* #ff6940ff */
+:hover article img{
+    position: absolute;
+    display: inline;
+    left: 30vw;
+    top: 1vh;
+    z-index: 100;
+}
+p{
+    margin: 0.5vw 2vw 0.8vw 1.5vw;
+    position: relative;
+}
 
 footer{
     color:  #00a9b1ff;
@@ -144,9 +194,6 @@ footer a{
         display: flex;
         flex-direction: column;
     } 
-    iframe{
-        width: 100vw;
-    }
     footer nav{
         display: none;
     }
@@ -161,22 +208,12 @@ footer a{
         padding: 1vh 2vw;
         width: 8vw;
     }
-    img{
-        width: 18vw;
-        height: 14vh;
-    }
     .gatito{
         width: 22vw;
         height: 11vh;
     }
     footer{
         height: 22vh;
-    }
-    .fotoBar{
-        display: none;
-    }
-    .fotoBar2{
-        display: none;
     }
     li{
         padding: 0.7vw;
