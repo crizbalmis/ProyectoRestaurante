@@ -129,10 +129,7 @@ footer img{
     
     
 }
-.logo:hover{
-    transform: scale(1.2);
-    transition: 0.4s;
-}
+
 footer a{
     padding: 0vh 2vw;
     font-size: 1.5vh;
@@ -147,13 +144,15 @@ footer a{
 
     div.galeria {
     border: 1px solid #ccc;
-    margin-right:4vw ;
+    margin-left: 10vw ;
     background-color: whitesmoke;
     justify-content: center;
     display: table;
     align-items: center;
-    
     }
+
+
+
     div.galeria:hover {
     border: 1px solid #777;
     transform: scale(1.50);
@@ -163,17 +162,20 @@ footer a{
     div.galeria img {
         max-width: 35vh;
         max-height: 35vh;
-        margin: 5px;
-        
-
+        margin: 5px;    
+    }
+    .flex-container{
+        padding-top: 20vh;
+    }
+    main{
+        display: flex;
+    flex-direction: column;
     }
     div.desc {
     padding: 15px;
     text-align: center;
     }
-    * {
-    box-sizing: border-box;
-    }
+   
     .responsive {
     padding: 0 6px;
     float: left;
@@ -185,6 +187,11 @@ span {
     color: rgb(97, 22, 22);
     font-size: x-large;
 }
+header{
+    text-align: center;
+    position: fixed;
+    background-color: rgba(174, 209, 209, 0.616);
+}
 
 @media only screen and (max-width: 700px) {
 .responsive {
@@ -192,6 +199,7 @@ width: 49.99999%;
 margin: 6px 0;
 }
  }
+
  @media only screen and (max-width: 500px) {
     .responsive {
     width: 100%;
@@ -201,8 +209,10 @@ margin: 6px 0;
     content: "";
     display: table;
     clear: both;
-    }
-@media screen and (max-width: 900px){
+    } 
+    
+
+@media screen and (max-width: 650px){
     section{
         display: flex;
         flex-direction: column;
@@ -224,14 +234,7 @@ margin: 6px 0;
         padding: 1vh 2vw;
         width: 8vw;
     }
-    img{
-        width: 18vw;
-        height: 14vh;
-    }
-    .gatito{
-        width: 22vw;
-        height: 11vh;
-    }
+  
     footer{
         height: 22vh;
     }
@@ -244,4 +247,7 @@ margin: 6px 0;
         margin: 0vh;
         width: 48vw;
         height: 12vh;
+    }
+    img.logo {
+        visibility: hidden;
     }

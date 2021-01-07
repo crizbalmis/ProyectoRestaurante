@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
     background-image: url(ramen.jpg);
 }
-img {
+img.logo {
     height: 14vh;
     margin: 2vh 0vh 0vh 0vh;
 }
@@ -28,6 +28,11 @@ header a:hover{
     border-radius: 20px;
 
 
+}
+header{
+    text-align: center;
+    position: fixed;
+    background-color: rgba(174, 209, 209, 0.616);
 }
 form {
    margin: 2vh;
@@ -181,10 +186,7 @@ footer img{
     padding: 1vh 2vw;
     width: 2.5vw;
 }
-.logo:hover{
-    transform: scale(1.2);
-    transition: 0.4s;
-}
+
 footer a{
     padding: 0vh 2vw;
     font-size: 1.5vh;
@@ -195,7 +197,10 @@ footer a{
     transform: scale(1.1);
     transition: 0.4s;
 }
-@media screen and (max-width: 900px){
+.container{
+    padding-top: 20vh;
+}
+@media screen and (max-width: 600px){
     section{
         display: flex;
         flex-direction: column;
@@ -217,23 +222,14 @@ footer a{
         padding: 1vh 2vw;
         width: 8vw;
     }
-    img{
-        width: 18vw;
-        height: 14vh;
+    .barra {
+        visibility: hidden;
     }
-    .gatito{
-        width: 22vw;
-        height: 11vh;
-    }
+    
     footer{
         height: 22vh;
     }
-    .fotoBar{
-        display: none;
-    }
-    .fotoBar2{
-        display: none;
-    }
+   
     li{
         padding: 0.7vw;
         margin: 5vw 1.8vw 8vw 0vw;
@@ -242,4 +238,7 @@ footer a{
         margin: 0vh;
         width: 48vw;
         height: 12vh;
+    }
+    img.logo {
+        visibility: hidden;
     }
