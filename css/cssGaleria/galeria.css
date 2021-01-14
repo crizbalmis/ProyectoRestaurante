@@ -129,6 +129,10 @@ footer img{
     
     
 }
+.padreGaleria{
+    display: flex;
+    
+}
 
 footer a{
     padding: 0vh 2vw;
@@ -146,9 +150,13 @@ footer a{
     border: 1px solid #ccc;
     margin-left: 10vw ;
     background-color: whitesmoke;
+    display: flex;
     justify-content: center;
-    display: table;
+    flex-direction: column;
+    max-width: 40vh;
+    max-height: 40vh;
     align-items: center;
+  
     }
 
 
@@ -160,9 +168,11 @@ footer a{
     
     }
     div.galeria img {
-        max-width: 35vh;
-        max-height: 35vh;
-        margin: 5px;    
+        max-width: 30vh;
+        max-height: 30vh;
+        margin: 5px;  
+          
+       
     }
     .flex-container{
         padding-top: 20vh;
@@ -186,6 +196,7 @@ span {
     font-family: 'Brush Script MT', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(97, 22, 22);
     font-size: x-large;
+    
 }
 header{
     text-align: center;
