@@ -186,13 +186,17 @@ footer div{
     align-items: center;
 }
 .gatito{
-    width: 15vh;
     height: 11vh;
-
+    width: auto;
+}
+.gatito:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 a img{
     padding: 1vh 0vh;
     width: 2.5vh;
+    height: auto;
 }
 .logo:hover{
     transform: scale(1.2);

@@ -116,7 +116,6 @@ h1{
     vertical-align: bottom;
     padding: 1vh 0.2vh 0vh 0vh;
     display: table-cell;
-    z-index: 10; 
     position: relative;
 }
 .columna{
@@ -129,8 +128,10 @@ h1{
 }
 article img{
     display: none;
-    width: 20vw;
+    width: 35vw;
+    max-width: 350px;
     height: auto;
+    background-color: #000300ff;
     border: solid #000300ff;
     border-width: 5px;
     border-radius: 99% 2% 98% 3%/3% 97% 2% 98%;
@@ -140,12 +141,11 @@ h3{
     margin: 0vh;
 
 }
-:hover article img{
+h3:hover ~ img{
     position: absolute;
     display: inline;
-    left: 30vw;
-    top: 1vh;
-    z-index: 100;
+    bottom: 5vh;
+    left: 4vw;
 }
 p{
     margin: 0.5vw 2vw 0.8vw 1.5vw;
@@ -224,4 +224,4 @@ footer a{
         width: 48vw;
         height: 12vh;
     }
-  
+} 
