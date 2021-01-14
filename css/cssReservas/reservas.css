@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-weight: bold;
+    overflow-x: hidden;
+    background-image: url(ramen.jpg);
+}
+img.logo {
+    height: 14vh;
+    margin: 2vh 0vh 0vh 0vh;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    transform: scale(1.01);
+    transition-duration: 0.2s;
+}
+.formulario {
+    margin-left: 30vw;
+    margin-right: 4vw;
+    margin-bottom: 4vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(254, 219, 217, 0.6);
+    border-radius: 20px;
+
+
+}
+header{
+    text-align: center;
+    position: fixed;
+    background-color: rgba(174, 209, 209, 0.616);
+}
+form {
+   margin: 2vh;
+
+}
+
+form label{
+	width:10vw;
+	font-weight:bold;
+	display:block;
+}
+input{
+	width:150px;
+	padding:3px 10px;
+	margin: 1vw;
+	display: list-item;
+}
+nav{
+    width: 100vw;
+    display: block;
+    height: 3vh;
+}
+ul{
+    width: 100vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0vh;
+    margin: 0vh;
+}
+li{
+    padding: 0.3vw;
+    margin: 1vw 2.5vw;
+    text-decoration: none;
+    color: #000300ff;
+   
+}
+.reservas{
+    border: solid #000300ff;
+    border-width: 2px 3px 1.5px 3.4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%; 
+    background-color:  #fffafde8; 
+}
+.menu:hover{
+    transform: none;
+}
+header li:hover{
+    border: solid #000300ff;
+    border-width: 2px 3px 1.5px 3.4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;  
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    background-color:  #fffafde8;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5vh;
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    color: #000300ff;
+}
+header div{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.letras{
+    margin: 0vh;
+    width: 36vw;
+    height: 12vh;
+    align-self: center;
+
+}
+/* section div{
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    border: solid #000300ff;
+    border-width: 2px 3px 1.5px 3.4px;
+    border-radius:95% 5% 94% 3%/4% 95% 6% 95%;  
+    background-color:  #fffafde8; */
+
+}
+article{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+h1{
+    margin-left: 40vw;
+    margin-right: 40vw;
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgba(254, 219, 217, 0.6);
+    border-radius: 20px;
+}
+p {
+    margin: 2vw;
+    font-size: large;
+    background-color: rgba(254, 219, 217, 0.6);
+    border-radius: 20px;
+   
+}
+h3{
+    color: #f03229ff;
+    font-weight: 900;
+
+}
+.div-container{
+    display: flex;
+    width: 95%;
+    margin: 2vw;
+
+    
+}
+.barra{
+    width: 50vh;
+    height: 75vh;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+}
+.barra:hover{
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+
+
+footer{
+    color:  #00a9b1ff;
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(0, 3, 0, 0.897);
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gatito{
+    height: 11vh;
+    width: auto;
+}
+.gatito:hover{
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+footer img{
+    padding: 1vh 2vw;
+    width: 2.5vw;
+}
+
+footer a{
+    padding: 0vh 2vw;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: #00a9b1ff;
+}
+.navfooter li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.container{
+    padding-top: 20vh;
+}
+@media screen and (max-width: 600px){
+    section{
+        display: flex;
+        flex-direction: column;
+    } 
+    iframe{
+        width: 100vw;
+    }
+    footer nav{
+        display: none;
+    }
+    nav a{
+        font-size: 1.7vh;
+        padding:0.5vh;
+    }
+    nav{
+        margin: 0vh 0.5vh;
+    }
+    footer img{
+        padding: 1vh 2vw;
+        width: 8vw;
+    }
+    .barra {
+        visibility: hidden;
+    }
+    
+    footer{
+        height: 22vh;
+    }
+   
+    li{
+        padding: 0.7vw;
+        margin: 5vw 1.8vw 8vw 0vw;
+    }
+    .letras{
+        margin: 0vh;
+        width: 48vw;
+        height: 12vh;
+    }
+    img.logo {
+        visibility: hidden;
+    }

@@ -3,11 +3,109 @@
     <head>
         <title>Reservas</title>
         <meta charset="UTF-8" />
-        <link href="../css/reservas.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="../css/cssReservas/reservas.css" media="screen" rel="stylesheet" type="text/css" />
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 
     </head>
     <body>
-
+        <header>
+            <nav>
+                <ul>
+                    <li class="menu">
+                        <a href="menú.html">MENÚ</a>
+                    </li>
+                    <li class="ubicacion">
+                        <a href="ubicacion.html">UBICACIÓN</a>
+                    </li>
+                    <li class="reservas">
+                        <a href="reservas.html">RESERVAS</a>
+                    </li>
+                    <li class="galeria">
+                        <a href="galeria.html">GALERÍA</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="" class="aIndex">
+                    <img class="logo" src="..\img\marca\logogatosinfondo.png" alt="Logo Gato">
+                    <img class="logo" src="..\img\marca\letrasFondoAzul.jpg" alt="Yawarakai Ramen" class="letras">
+                </a>
+            </div>
+        </header>
+        <article class="container">
+            <section class="presentacion">
+                <h1>¡Come con nosotros!</h1>
+                <p>En YAWARAKI estarémos encantados de tenerte en nuestro local ambientado en los restaurantes japoneses tradicionales de ramen para que viajes sensorialmente a Japón.
+                    Si no te quieres quedar sin tu mesa puedes reservarla en el siguiente cuestionario para un máximo de 20 comensales. ¡Te esperamos!
+                </p>
+            </section>
+            <section>
+                <div class="div-container">
+                    <div class="formulario">
+                        <form>
+                            <label>Número de comensales:</label>
+                            <input type="number" max="20" min="1" placeholder="nº comensales" required>
+                            <label>Día y hora:</label>
+                            <input type="datetime-local" required>
+                            <label>Nombre del reservante:</label>
+                            <input type="text" maxlength="40" required placeholder="nombre">
+                            <label>Nº telefono:*</label>
+                            <input type="tel" placeholder="nº telf" >
+                            <label>
+                                Correo electrónico:*</label>
+                            <input type="email" placeholder="ejemplo@ejemplo.com" required>
+                            <input type="submit" name="Reserva" >
+                            
+                        </form>
+                    </div>
+                    <div class="foto">
+                        <img class="barra" src="../img/fotos/barra-yokocho.jpg"
+                    
+                    </div>
+                   
+                </div>
+                 
+            </section>
+            <section>
+                <div>
+                    <p>* Un día antes le mandaremos un recordatorio de su reserva al correo electrónico, y media hora antes de la hora seleccionada un sms si nos facilita el nº de teléfono. Rogamos que si quiere cancelar la reserva lo haga con antelación.</p>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <div id="logo">
+                <a href="" >
+                    <img src="..\img\marca\logogatosinfondo.png" alt="Logo Gato" class="gatito">
+                </a>
+                <a href="" class="logo">
+                    <img src="..\img\logos\youtube.svg" alt="logo YT">
+                </a>
+                <a href="" class="logo">
+                    <img src="..\img\logos\twitter.svg" alt="logo TW">
+                </a>
+                <a href="" class="logo">
+                    <img src="..\img\logos\spotify.svg" alt="logo Spotify">
+                </a>
+                <a href="" class="logo">
+                    <img src="..\img\logos\facebook.svg" alt="logo Facebook">
+                </a>
+            </div>
+            <nav >
+                <ul class="navfooter">
+                    <li>
+                        <a href="menú.html">MENÚ</a>
+                    </li>
+                    <li>
+                        <a href="ubicacion.html">UBICACIÓN</a>
+                    </li>
+                    <li>
+                        <a href="reservas.html">RESERVAS</a>
+                    </li>
+                    <li>
+                        <a href="galeria.html">GALERÍA</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
