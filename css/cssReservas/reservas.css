@@ -242,3 +242,6 @@ footer a{
     img.logo {
         visibility: hidden;
     }
+    header {
+        max-height: 10vh;
+    }
