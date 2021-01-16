@@ -131,6 +131,7 @@ footer img{
 }
 .padreGaleria{
     display: flex;
+    flex-direction: column;
     
 }
 
@@ -150,13 +151,11 @@ footer a{
     border: 1px solid #ccc;
     margin-left: 10vw ;
     background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: table;
     max-width: 40vh;
     max-height: 40vh;
-    align-items: center;
-  
+    
+    
     }
 
 
@@ -168,8 +167,8 @@ footer a{
     
     }
     div.galeria img {
-        max-width: 30vh;
         max-height: 30vh;
+        
         margin: 5px;  
           
        
@@ -204,30 +203,14 @@ header{
     background-color: rgba(174, 209, 209, 0.616);
 }
 
-@media only screen and (max-width: 700px) {
-.responsive {
-width: 49.99999%;
-margin: 6px 0;
-}
- }
 
- @media only screen and (max-width: 500px) {
-    .responsive {
-    width: 100%;
-    }
-    }
-    .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-    } 
-    
 
-@media screen and (max-width: 650px){
-    section{
-        display: flex;
-        flex-direction: column;
-    } 
+ 
+
+@media screen and (max-width: 850px){
+  .galeria{
+      max-height: 5vh;
+  }
     iframe{
         width: 100vw;
     }
@@ -262,3 +245,15 @@ margin: 6px 0;
     img.logo {
         visibility: hidden;
     }
+    header {
+        max-height: 10vh;
+    }
+    .responsive {
+        width: 100%;
+        }
+        }
+        .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+        } 
